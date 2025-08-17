@@ -12,6 +12,17 @@ body {
     color: var(--claro);
 }
 
+h1, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4; 
+  color: azure;
+}
+
 .navegacao {
     text-align: center;
 }
