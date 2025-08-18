@@ -53,6 +53,11 @@ p {
     text-align: center;
 }
 
+.caixa:hover {
+    box-shadow: 0 10px 20px aqua;
+    transform: translateY(-10px) scale(1.03);
+}
+
 .titulo-caixa1 {
     color: greenyellow;
 }
