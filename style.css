@@ -59,9 +59,30 @@ p {
     transform: translateY(-10px) scale(1.03);
 }
 
-.titulo-caixa1 {
-    color: greenyellow;
+.caixa-link{
+    padding: 1rem;
+    max-width: 750px;
+    margin: 0;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.05);
+    text-align: center;
 }
 
+.caixa-link:hover {
+    box-shadow: 0 10px 20px yellow;
+    transform: translateY(-10px) scale(1.03);
+}
 
+.caixa-link:hover h2{
+    color: yellow;
+}
 
+.titulo-yellow {
+    color: yellow;
+}
+
+.titulo-caixa-geracao {
+    color: yellow;
+}
